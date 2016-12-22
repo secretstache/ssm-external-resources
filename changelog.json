@@ -1,5 +1,6 @@
 {
   "0.1.0" : "Initial Release",
   "0.1.1" : "Integrates Kernl Continuous Deployment",
-  "0.1.2" : "Adds support for post thumbnail"
+  "0.1.2" : "Adds support for post thumbnail",
+  "0.1.3" : "Adds support for post excerpt"
 }
