@@ -55,6 +55,7 @@ class SSM_External_Resources_Registrations {
 
 		$supports = array(
 			'title',
+			'thumbnail',
 		);
 
 		$args = array(
