@@ -9,7 +9,7 @@
  * Plugin Name: SSM External Resources
  * Plugin URI:  http://secretstache.com
  * Description: Enables an External Resources Custom Post Type.
- * Version:     0.1.0
+ * Version:     0.1.1
  * Author:      Secret Stache Media
  * Author URI:  http://secretstache.com
  * Text Domain: ssm-external-resources
@@ -59,10 +59,9 @@ if ( is_admin() ) {
 
 require plugin_dir_path( __FILE__ ) . 'includes/plugin_update_check.php';
 
-// $MyUpdateChecker = new PluginUpdateChecker_2_0 (
-//     'https://kernl.us/api/v1/updates/57a155031d2583841187809d/',
-//     __FILE__,
-//     'ssm-external-resources',
-//     1
-// );
-// $MyUpdateChecker->purchaseCode = "somePurchaseCode";  <---- Optional!
+$MyUpdateChecker = new PluginUpdateChecker_2_0 (
+    'https://kernl.us/api/v1/updates/585c2d1653059b3cba184ede/',
+    __FILE__,
+    'ssm-external-resources',
+    1
+);
